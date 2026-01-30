@@ -1,0 +1,26 @@
+{
+  "name": "hw-25",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel index.html",
+    "build": "parcel build index.html --public-url /parcel/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew87n/HW-25.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrew87n/HW-25/issues"
+  },
+  "homepage": "https://github.com/Andrew87n/HW-25#readme",
+  "dependencies": {
+    "parcel": "^2.16.3"
+  }
+}
